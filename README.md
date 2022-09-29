@@ -6,7 +6,7 @@
 
 React JS Styled Components
 
-## 🔔 Started
+## 🔔 How to Start
 ```
 npm run start
 ```
