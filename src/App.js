@@ -45,7 +45,6 @@ function App() {
 
   useEffect(() => {
     fetchPokemons();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page]);
 
   const updateFavoritePokemons = (name) => {
