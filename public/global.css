@@ -32,3 +32,17 @@ a {
   text-decoration: none;
 }
 
+.pokemon-abilities{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.pokemon-ability{
+  padding: 0 2px 0 2px; 
+  margin: 2px;
+  border: 2px solid #1ba866;
+  border-radius: 16px;
+  background-color: #1ba866;      
+}
