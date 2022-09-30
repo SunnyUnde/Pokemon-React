@@ -30,7 +30,7 @@ export default function Pokemon(props) {
             </div>
           );
         })}
-        <button onClick={onHeartClick}> Favoritar {heart}</button>
+        <button onClick={onHeartClick}> Favourite {heart}</button>
       </div>
     </Container>
   );

@@ -18,10 +18,10 @@ export default function Searchbar(props) {
   return (
     <Container>
       <div className="input-pokemon">
-        <input placeholder="Buscar Pokemon..." onChange={onChangeHandler} />
+        <input placeholder="Search Pokemon..." onChange={onChangeHandler} />
       </div>
       <div className="button-pokemon">
-        <button onClick={onButtonClickHandler}>Buscar</button>
+        <button onClick={onButtonClickHandler}>Search</button>
       </div>
     </Container>
   );
