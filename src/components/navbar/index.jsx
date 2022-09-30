@@ -4,8 +4,7 @@ import { Container } from "./styled";
 
 export default function Navbar() {
   const { favoritePokemons } = useContext(FavoriteContext);
-  const logoImg =
-    "https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png";
+  const logoImg = "https://www.freepnglogos.com/uploads/pokemon-logo-png-0.png";
   return (
     <Container>
       <div>
