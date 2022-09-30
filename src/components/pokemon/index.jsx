@@ -10,6 +10,7 @@ export default function Pokemon(props) {
     updateFavoritePokemons(pokemon.name);
   };
   const heart = favoritePokemons.includes(pokemon.name) ? "❤️" : "💙";
+  console.log("pokemon", pokemon);
   return (
     <Container>
       <div className="card-top">
@@ -18,10 +19,14 @@ export default function Pokemon(props) {
         </div>
 
         <h3> {pokemon.name}</h3>
-        <div>N: {pokemon.id}</div>
+        <div>Number: {pokemon.id}</div>
       </div>
 
       <div className="card-bottom">
+        <a href={pokemon.species.url} target="_blank" className="pokemon-more-info">
+          {" "}
+          More Info{" "}
+        </a>
         {pokemon.types.map((type, index) => {
           return (
             <div key={index} className="pokemon-type-text">
