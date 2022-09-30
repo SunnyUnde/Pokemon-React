@@ -32,3 +32,11 @@ a {
   text-decoration: none;
 }
 
+.yellow{
+    background-color: #feca1b !important;
+}
+
+.pokemon-more-info{
+    margin-left: 15px;
+    margin-top: 5px;
+}
