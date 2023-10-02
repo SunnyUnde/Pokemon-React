@@ -2,7 +2,7 @@
  Pokemon React
 </h1>
 
-## Tech
+## Technology
 
 React JS Styled Components
 
