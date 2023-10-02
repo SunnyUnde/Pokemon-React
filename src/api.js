@@ -5,7 +5,7 @@ export const searchPokemon = async (pokemon) => {
         const response = await fetch(url)
         return await response.json()
     } catch (error) {
-        console.log("error: ", error)
+        console.log("error in searchPokemons: ", error)
     }
 }
 
@@ -15,7 +15,7 @@ export const getPokemons = async (limit = 50, offset = 0) => {
         const response = await fetch(url)
         return await response.json()
     } catch (error) {
-        console.log("error: ", error)
+        console.log("error in getPokemons: ", error)
     }
 }
 
@@ -24,6 +24,6 @@ export const getPokemonData = async (url) => {
         const response = await fetch(url)
         return await response.json()
     } catch (error) {
-        console.log("error: ", error)
+        console.log("error in getPokemonData: ", error)
     }
 }
