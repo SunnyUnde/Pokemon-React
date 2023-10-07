@@ -10,6 +10,7 @@ export default function Pokemon(props) {
     updateFavoritePokemons(pokemon.name);
   };
   const heart = favoritePokemons.includes(pokemon.name) ? "❤️" : "💙";
+  console.log("pokemon", pokemon);
   return (
     <Container>
       <div className="card-top">
