@@ -35,8 +35,7 @@ export default function Pokemon(props) {
             </div>
           );
         })}
-
-        <div className="pokemon-abilities">
+         <div className="pokemon-abilities">
           Abilities :
           {pokemon.abilities.map((ability, index) => {
             return (
