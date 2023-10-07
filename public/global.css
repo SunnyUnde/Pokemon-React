@@ -32,3 +32,18 @@ a {
   text-decoration: none;
 }
 
+.navbar-img{
+    width: 420px;
+    height: 300px;
+}
+
+.left-btn{
+    width: 25px;
+    height: 25px;
+}
+
+.right-btn{
+    width: 25px;
+    height: 25px;
+    transform: rotate(60deg)
+}
