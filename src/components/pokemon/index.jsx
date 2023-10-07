@@ -31,6 +31,18 @@ export default function Pokemon(props) {
             </div>
           );
         })}
+
+        <div className="pokemon-abilities">
+          Abilities :
+          {pokemon.abilities.map((ability, index) => {
+            return (
+              <div key={index} className="pokemon-ability">
+                {" "}
+                {ability.ability.name}
+              </div>
+            );
+          })}
+        </div>
         <button onClick={onHeartClick}> Favoritar {heart}</button>
       </div>
     </Container>
