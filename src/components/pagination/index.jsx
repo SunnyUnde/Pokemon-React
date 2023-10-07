@@ -6,9 +6,9 @@ export default function Pagination(props) {
   return (
     <Container>
       <button className="yellow" onClick={onLeftClick}>◀</button>
-      <div>
-        {page} / {totalPages}
-      </div>
+        <div>
+          {page} / {totalPages}
+        </div>
       <button className="yellow" onClick={onRightClick}>▶</button>
     </Container>
   );
